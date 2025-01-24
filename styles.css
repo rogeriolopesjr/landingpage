@@ -8,7 +8,6 @@
 body { /* (1, 2, 3, 4, 5)*/
     font-family: Arial, Sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
 }
 
 .container { /* (1, 2, 3, 4, 5)*/
@@ -31,43 +30,61 @@ header { /* (1) */
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 header h1 { /* (1) */
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-bottom: 10px;
+    color: #542362;
 }
 
-header nav ul { /* (1) */
-    list-style-type: none;
-}
-
-header nav ul li { /* (1) */
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a { /* (1) */
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
+header h2 {
+    color: #542362;
 }
 
 #intro { /* (2) */
-    background-color: #fff;
+    background-color: #542362;
     padding: 50px 0;
     text-align: center;
+
 }
 
 #intro h2 { /* (2) */
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 20px;
+    color: white;
 }
 
 #intro p { /* (2) */
-    font-size: 1.1rem;
-    color: #666;
+    font-size: 1.8rem;
+    color: white;
     margin-bottom: 30px;
+}
+#intro2 { /* (2) */
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+#intro2 h2 { /* (2) */
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.788);
+}
+.highlight {
+    color:#ff9600; /* Escolha a cor que você deseja */
+  }
+  
+
+#intro2 p { /* (2) */
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.788);
+    margin-bottom: 30px;
+    font-weight: bold
 }
 
 .btn { /* (2) */
