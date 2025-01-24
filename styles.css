@@ -5,37 +5,17 @@
     box-sizing: border-box;
 }
 
-body { /* (1, 2, 3, 4, 5)*/
-    font-family: Arial, Sans-serif;
-    line-height: 1.6;
-}
-
-.container { /* (1, 2, 3, 4, 5)*/
-    /* width: 80%; Define a largura da .container como 80% da largura do seu contêiner pai. Isso significa que a largura da .
-    container vai ocupar 80% da largura disponível na tela.
-max-width: 1200px; Define a largura máxima que a .container pode ter, limitando-a a 1200 pixels. Mesmo que o viewport ou o contêiner pai 
-seja maior que 1200 pixels, .container não irá se expandir além dessa largura.
-margin: 0 auto; aplica margens automáticas no topo e na base da .container, e as laterais são automáticas, o que centraliza .container horizontalmente 
-dentro de seu contêiner pai. Esta é uma técnica comum para centralizar blocos na página.
-padding: 20px; Define um preenchimento interno de 20 pixels dentro da .container. O preenchimento é adicionado dentro da largura definida, ou seja, 
-o espaço interno entre a borda da .container e seu conteúdo será de 20 pixels em todas as direções (topo, direita, baixo, esquerda). */
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-header { /* (1) */
+header { /* (1) Cabeçalho / Título / Menu */
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
     background-color: white;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
 }
 
-header h1 { /* (1) */
+header h1 { 
     font-size: 4rem;
     margin-bottom: 10px;
     color: #542362;
@@ -45,47 +25,60 @@ header h2 {
     color: #542362;
 }
 
-#intro { /* (2) */
+body {  /* Corpo da página. Exceção body e footer */
+    font-family: Arial, Sans-serif;
+    line-height: 1.6;
+}
+
+#intro { /* (introduction) */
     background-color: #542362;
-    padding: 50px 0;
+    padding: 10px 0;
     text-align: center;
 
 }
 
-#intro h2 { /* (2) */
+#intro h2 { /* (introduction) */
     font-size: 3rem;
     margin-bottom: 20px;
     color: white;
 }
 
-#intro p { /* (2) */
+#intro p { /* (introduction) */
     font-size: 1.8rem;
     color: white;
     margin-bottom: 30px;
 }
-#intro2 { /* (2) */
-    background-color: white;
-    padding: 50px 0;
-    text-align: center;
 
+.container {  /* primeira parte (introduction)*/
+    width: 80%; /* percentual da largura que o container vai ocupar na tela*/
+    max-width: 1200px; /* define a largura maxima que o container pode ter mesmo que o container pai ultrapasse essa largura*/
+    margin: 0 auto; /* define o preenchimento externo (fora do conteúdo) do container. 0 auto; aplica margens automáticas*/
+    margin-top: 30px;
+    padding-top: 0px;
+    padding-bottom: 80px; /*define o preenchimento interno do container (onde fica todo o conteúdo)*/
 }
 
-#intro2 h2 { /* (2) */
-    font-size: 4rem;
-    margin-bottom: 20px;
-    color: rgba(0, 0, 0, 0.788);
+.container-2 {  /* primeira parte (introduction)*/
+    width: 80%; /* percentual da largura que o container vai ocupar na tela*/
+    max-width: 1200px; /* define a largura maxima que o container pode ter mesmo que o container pai ultrapasse essa largura*/
+    margin: 0 auto; /* define o preenchimento externo (fora do conteúdo) do container. 0 auto; aplica margens automáticas*/
+    padding: 10px; /*define o preenchimento interno do container (onde fica todo o conteúdo)*/
 }
-.highlight {
-    color:#ff9600; /* Escolha a cor que você deseja */
-  }
-  
 
-#intro2 p { /* (2) */
+.container-2 p { /* (2) */
     font-size: 1.8rem;
     color: rgba(0, 0, 0, 0.788);
     margin-bottom: 30px;
     font-weight: bold
 }
+
+
+.highlight { /* */
+    color:#ff9600; /* Escolha a cor que você deseja */
+  }
+  
+
+
 
 .btn { /* (2) */
     display: inline-block;
