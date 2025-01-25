@@ -30,6 +30,12 @@ body {  /* Corpo da página. Exceção body e footer */
     line-height: 1.6;
 }
 
+#video{
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
+
 #intro { /* (introduction) */
     background: radial-gradient(circle, #542362, #9b3c81);
     padding: 10px 0;
