@@ -29,7 +29,11 @@ body {  /* Corpo da página. Exceção body e footer */
     font-family: Arial, Sans-serif;
     line-height: 1.6;
 }
-
+#home{
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
 #video{
     margin: 0 auto;
     padding: 100px;
