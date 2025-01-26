@@ -7,9 +7,9 @@
 
 header { /* (1) Cabeçalho / Título / Menu */
     background-color: #ffffff;
-    color: #fff;
+    color: #000000ce;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.678);
     padding-top: 10px;
     padding-bottom: 0px;
     margin-top: 0px;
@@ -18,8 +18,8 @@ header { /* (1) Cabeçalho / Título / Menu */
 header h1 { 
     font-size: 30px;
     margin-bottom: 5px;
-    color: #ffffffef;
-    letter-spacing: 1.5px; 
+    color: #000000c5;
+    letter-spacing: 1.5px;
 }
 
 header h2 {
@@ -69,7 +69,7 @@ body {  /* Corpo da página. Exceção body e footer */
     padding-right: 200px;
 }
 .caracteristicas h2 {
-    color: #000000;
+    color: #000000cb;
     margin: 0 auto;
     padding-inline: 0.8%;
     margin-bottom: 15px;
@@ -111,7 +111,17 @@ body {  /* Corpo da página. Exceção body e footer */
     margin: 0 auto;
     padding: 100px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#depoimentos {
+    text-align: center;
+}
+
+.depoimentos {
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
 }
 
 #intro { /* (introduction) */
