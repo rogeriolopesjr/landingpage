@@ -10,45 +10,83 @@ header { /* (1) Cabeçalho / Título / Menu */
     color: #fff;
     text-align: center;
     background-color: white;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 header h1 { 
-    font-size: 4.2rem;
-    margin-bottom: 10px;
-    color: #542362;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #525252;
 }
 
 header h2 {
     color: #542362;
+    margin-left: -80px;
 }
-
+h1, h2 {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+  }
 body {  /* Corpo da página. Exceção body e footer */
     font-family: Arial, Sans-serif;
     line-height: 1.6;
+    background: #fff;
 }
 #home{
+    background: linear-gradient(to bottom, #542362, #9b3c81);
     margin: 0 auto;
-    padding: 100px;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
+.home{
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    width:470px;
+    height: 470px;
+    margin: -0 auto;
+    padding: 50px;
+    text-align: center;
+    border: 0px; background-color: #fff;
+    border-radius: 5000px; /* Arredondar os cantos */
+    box-shadow: 0 0 20px 2px rgba(199, 198, 198, 0.8);
+}
+
+#home img{
+    margin-left: -50px;
+    margin-top: -83px;
+}
+
+.caracteristicas {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+    color: #fff;
+}
+
+.caracteristicas .item{
+    line-height: 3;
+}
+
 #video{
     margin: 0 auto;
     padding: 100px;
     text-align: center;
+    background-color: black;
 }
 
 #intro { /* (introduction) */
-    background: radial-gradient(circle, #542362, #9b3c81);
+    background: linear-gradient(to bottom, #542362, #9b3c81);
     padding: 10px 0;
     text-align: center;
 
 }
 
 #intro h2 { /* (introduction) */
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     color: white;
 }
