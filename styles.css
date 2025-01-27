@@ -6,59 +6,60 @@
 }
 
 header { /* (1) Cabeçalho / Título / Menu */
-    background-color: #ffffff;
-    color: #000000ce;
+    background: #542362;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.678);
-    padding-top: 10px;
+    padding-top: 55px;
     padding-bottom: 0px;
     margin-top: 0px;
 }
 
 header h1 { 
-    font-size: 30px;
+    font-size: 40px;
+    margin-inline: 50px;
     margin-bottom: 5px;
-    color: #000000c5;
-    letter-spacing: 1.5px;
-}
-
-header h2 {
-    color: #525252;
-    margin-left: -80px;
-    letter-spacing: 1.5px;
+    color: #ffffffd8;
+    letter-spacing: 0.000001px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-weight: 550;
+    line-height: 1.5;
+    background: #0000003d;
+    padding-inline: 10px;
 }
 h1, h2 {
     display: inline-block;
     margin: 0px;
     padding: 0px;
   }
+
 body {  /* Corpo da página. Exceção body e footer */
     font-family: Arial, Sans-serif;
     line-height: 1.6;
-    background: #fff;
+    background: #ffffff;
+    margin-inline: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 #home{
-    background: linear-gradient(to bottom, #542362, #9b3c81);
+    background: linear-gradient(to bottom, #542362, #542362e3, #9b3c82,#9b3c82,#542362de,#542362);
     margin: 0 auto;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 .home{
-    background: linear-gradient(to bottom, #ffffff, #eeeeee6c);
-    width:395px;
-    height: 400px;
+    background: #fff;
+    width:500px;
+    height: 500px;
     margin: -0 auto;
     padding: 50px;
     text-align: center;
-    border: 0px; background-color: #ffffffd0;
-    border-radius: 100px; /* Arredondar os cantos */
-    box-shadow: 0 0 20px 2px rgba(199, 198, 198, 0.8);
+    border-radius: 5px; /* Arredondar os cantos */
+    margin-left: 380px;
 }
 
 #home img{
-    margin-left: -100px;
-    margin-top: -85px;
+    margin-left: -15px;
+    margin-top: -45px;
 }
 
 .caracteristicas {
@@ -67,31 +68,49 @@ body {  /* Corpo da página. Exceção body e footer */
     color: #fff;
     padding-left: 200px; 
     padding-right: 200px;
+    padding-bottom: 0px;
 }
 .caracteristicas h2 {
-    color: #000000cb;
+    color: #ffffffd8;
     margin: 0 auto;
-    padding-inline: 0.8%;
-    margin-bottom: 15px;
-    background-color: #ffffff;
+    padding-inline: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px ; 
+    margin-top: 0px;
+    background: #0000003d;
+    margin-bottom: 20px;
     font-size: 30px;
-    border-radius: 10px; /* Arredondar os cantos */
+    border-radius: 5px; /* Arredondar os cantos */
     text-align: center;
-    letter-spacing: 1.5px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    letter-spacing: 0.000001px;
+    font-weight: 550;
+}
+
+.caracteristicas h3 {
+    font-size: 30px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: 550;
+    letter-spacing: 0.000001px;
 }
 
 .caracteristicas p{
     line-height: 3.5;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: 380;
+    font-size: 17px;
     letter-spacing: 1px;
-
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    margin-top: 5px;
 }
 
 .caracteristicas .btn{
-    margin-top: 40px;
+    margin-top: 50px;
     animation: pulsar 0.95s infinite;
+    margin-bottom: 90px;
 
 }
 
@@ -109,9 +128,21 @@ body {  /* Corpo da página. Exceção body e footer */
 
 #video{
     margin: 0 auto;
-    padding: 100px;
+    padding-top: 70px;
+    padding-bottom: 80px;
     text-align: center;
     background-color: rgb(255, 255, 255);
+}
+
+#video h2{
+    margin: 0 auto;
+    margin-inline: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #542362;
+    font-size: 30px;
+    display: block;
 }
 
 #depoimentos {
@@ -148,7 +179,7 @@ body {  /* Corpo da página. Exceção body e footer */
 }
 
 #intro h2 { /* (introduction) */
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: white;
     padding-top: 50px;
@@ -156,7 +187,7 @@ body {  /* Corpo da página. Exceção body e footer */
 }
 
 #intro p { /* (introduction) */
-    font-size: 1.2rem;
+    font-size: 15px;
     color: white;
     margin-bottom: 30px;
     padding-inline: 20%;
@@ -173,7 +204,7 @@ body {  /* Corpo da página. Exceção body e footer */
     text-align: center;
 }
 #container h2 { /* (2) */
-    font-size: 30px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.788);
     margin-bottom: 10px;
     font-weight: bold;
@@ -204,6 +235,7 @@ body {  /* Corpo da página. Exceção body e footer */
     letter-spacing: 1px;
     font-family:'Arial';
     animation: pulsar 0.95s infinite;
+    font-size: 20px;
 }
 
 .btn:hover { /* (2) */
