@@ -116,12 +116,28 @@ body {  /* Corpo da página. Exceção body e footer */
 
 #depoimentos {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.depoimentos {
+.depoimentos  {
+    font-size: 14px;
+    padding: 0%;
+    text-align: left;
     display: inline-block;
-    padding: 5%;
-    text-align: center;
+    padding-inline: 30px;
+    margin-inline: 20px;
+}
+
+.depoimentos p {
+    font-size: 14px;
+    margin-inline: 0px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.depoimentos h3 {
+    padding-inline: 0px;
+    text-align: left;
 }
 
 #intro { /* (introduction) */
