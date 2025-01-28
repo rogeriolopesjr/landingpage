@@ -5,25 +5,24 @@
     box-sizing: border-box;
 }
 
-header { /* (1) Cabeçalho / Título / Menu */
+header { 
     background: #542362;
     text-align: center;
-    padding-top: 55px;
-    padding-bottom: 0px;
-    margin-top: 0px;
+    padding-top: 0px;
 }
 
 header h1 { 
-    font-size: 40px;
-    margin-inline: 50px;
-    margin-bottom: 5px;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     color: #ffffffd8;
     letter-spacing: 0.000001px;
     font-family: 'Roboto', 'Poppins', sans-serif;
-    font-weight: 550;
+    font-weight: 1000;
     line-height: 1.5;
-    background: #0000003d;
-    padding-inline: 10px;
+    background: #00000000;
+    padding-inline: 50px;
+    border-radius: 5px;
 }
 h1, h2 {
     display: inline-block;
@@ -33,84 +32,94 @@ h1, h2 {
 
 body {  /* Corpo da página. Exceção body e footer */
     font-family: Arial, Sans-serif;
-    line-height: 1.6;
     background: #ffffff;
     margin-inline: 1px;
     margin-top: 1px;
     margin-bottom: 1px;
 }
 #home{
-    background: linear-gradient(to bottom, #542362, #542362e3, #9b3c82,#9b3c82,#542362de,#542362);
+    background: linear-gradient(to bottom, #542362,  #9b3c82,#9b3c82,#542362de,#542362,#542362,#542362);
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
 .home{
-    background: #fff;
-    width:500px;
-    height: 500px;
+    background: #ffffff;
+    width:320px;
+    height: 320px;
     margin: -0 auto;
     padding: 50px;
     text-align: center;
-    border-radius: 5px; /* Arredondar os cantos */
-    margin-left: 380px;
+    border-radius: 500px;
 }
 
-#home img{
-    margin-left: -15px;
-    margin-top: -45px;
+.img{
+    margin-left: -70px;
+    margin-top: -72px;
+}
+
+.chamada {
+    font-size: 25px;
+    font-weight: 0;
+}
+
+.chamada2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0px;
+
 }
 
 .caracteristicas {
-    padding-top: 30px;
+    padding-top: 0px;
     text-align: center;
     color: #fff;
     padding-left: 200px; 
     padding-right: 200px;
     padding-bottom: 0px;
+    line-height: 2;
 }
 .caracteristicas h2 {
     color: #ffffffd8;
     margin: 0 auto;
-    padding-inline: 10px;
+    padding-inline: 20px;
     padding-top: 0px;
     padding-bottom: 0px ; 
     margin-top: 0px;
-    background: #0000003d;
-    margin-bottom: 20px;
+    background: #00000000;
+    margin-bottom: 0px;
     font-size: 30px;
     border-radius: 5px; /* Arredondar os cantos */
     text-align: center;
     font-family: 'Roboto', 'Poppins', sans-serif;
     letter-spacing: 0.000001px;
-    font-weight: 550;
+    font-weight: 1000;
 }
 
 .caracteristicas h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Roboto', 'Poppins', sans-serif;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     color: #ffffff;
-    font-weight: 550;
+    font-weight: 450;
     letter-spacing: 0.000001px;
 }
 
-.caracteristicas p{
-    line-height: 3.5;
-    text-align: center;
-    font-weight: 380;
-    font-size: 17px;
-    letter-spacing: 1px;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    margin-top: 5px;
+.chamada3 {
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px;
 }
 
 .caracteristicas .btn{
     margin-top: 50px;
     animation: pulsar 0.95s infinite;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 
 }
 
@@ -132,17 +141,6 @@ body {  /* Corpo da página. Exceção body e footer */
     padding-bottom: 80px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-}
-
-#video h2{
-    margin: 0 auto;
-    margin-inline: 0px;
-    padding-bottom: 0px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: #542362;
-    font-size: 30px;
-    display: block;
 }
 
 #depoimentos {
@@ -171,28 +169,6 @@ body {  /* Corpo da página. Exceção body e footer */
     text-align: left;
 }
 
-#intro { /* (introduction) */
-    background: linear-gradient(to bottom, #542362, #9b3c81);
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 0px;
-}
-
-#intro h2 { /* (introduction) */
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: white;
-    padding-top: 50px;
-    letter-spacing: 1.5px;
-}
-
-#intro p { /* (introduction) */
-    font-size: 15px;
-    color: white;
-    margin-bottom: 30px;
-    padding-inline: 20%;
-    letter-spacing: 1px;
-}
 
 #container {  /* primeira parte (introduction)*/
     width: 80%; /* percentual da largura que o container vai ocupar na tela*/
