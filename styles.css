@@ -1,114 +1,65 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header { 
-    background: #542362;
-    text-align: center;
-    padding-top: 0px;
-}
-
-header h1 { 
-    font-size: 35px;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    color: #ffffffd8;
-    letter-spacing: 0.000001px;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    font-weight: 1000;
-    line-height: 1.5;
-    background: #00000000;
-    padding-inline: 50px;
-    border-radius: 5px;
-}
-h1, h2 {
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-  }
-
-body {  /* Corpo da página. Exceção body e footer */
-    font-family: Arial, Sans-serif;
-    background: #ffffff;
-    margin-inline: 1px;
+body {
     margin-top: 1px;
     margin-bottom: 1px;
-}
-#home{
-    background: linear-gradient(to bottom, #542362,  #9b3c82,#9b3c82,#542362de,#542362,#542362,#542362);
-    margin: 0 auto;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-inline: 1px;
+    background: #ffffff;
+    font-family: Arial, Sans-serif;
 }
 
-.home{
+header h1 {  /*existe*/
+    background: #542362;
+    color: #ffffffd8;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#home { /*existe*/
+    background: linear-gradient(to bottom, #542362,  #9b3c82,#9b3c82,#542362de,#542362,#542362,#542362);
+}
+
+.home{ /*existe*/
+    margin: -0 auto;
     background: #ffffff;
+    padding: 50px;
     width:320px;
     height: 320px;
-    margin: -0 auto;
-    padding: 50px;
-    text-align: center;
     border-radius: 500px;
 }
 
-.img{
+.img{ /*existe*/
     margin-left: -70px;
     margin-top: -72px;
 }
 
-.chamada {
-    font-size: 25px;
-    font-weight: 0;
-}
-
-.chamada2 {
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 1.5;
-    margin: 0px;
-
-}
-
-.caracteristicas {
-    padding-top: 0px;
-    text-align: center;
+.caracteristicas { /*existe*/
     color: #fff;
-    padding-left: 200px; 
-    padding-right: 200px;
-    padding-bottom: 0px;
+    padding-inline: 200px;
     line-height: 2;
-}
-.caracteristicas h2 {
-    color: #ffffffd8;
-    margin: 0 auto;
-    padding-inline: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px ; 
-    margin-top: 0px;
-    background: #00000000;
-    margin-bottom: 0px;
-    font-size: 30px;
-    border-radius: 5px; /* Arredondar os cantos */
     text-align: center;
+}
+
+.caracteristicas h2 { /*existe*/
+    background: #00000000;
+    color: #ffffffd8;
+    font-size: 30px;
     font-family: 'Roboto', 'Poppins', sans-serif;
-    letter-spacing: 0.000001px;
     font-weight: 1000;
+    text-align: center;
 }
 
-.caracteristicas h3 {
-    font-size: 25px;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #ffffff;
-    font-weight: 450;
-    letter-spacing: 0.000001px;
-}
-
-.chamada3 {
+.descricao { /*existe*/
     line-height: 2;
     font-size: 20px;
     font-weight: 200;
@@ -116,90 +67,9 @@ body {  /* Corpo da página. Exceção body e footer */
     margin: 0px;
 }
 
-.caracteristicas .btn{
+.btn { /*existe*/
     margin-top: 50px;
-    animation: pulsar 0.95s infinite;
     margin-bottom: 50px;
-
-}
-
-@keyframes pulsar {
-    0% {
-        transform: scale(1); /* Tamanho normal */
-    }
-    50% {
-        transform: scale(1.1); /* Cresce para 110% */
-    }
-    100% {
-        transform: scale(1); /* Volta ao tamanho normal */
-    }
-}
-
-#video{
-    margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 80px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-}
-
-#depoimentos {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.depoimentos  {
-    font-size: 14px;
-    padding: 0%;
-    text-align: left;
-    display: inline-block;
-    padding-inline: 30px;
-    margin-inline: 20px;
-}
-
-.depoimentos p {
-    font-size: 14px;
-    margin-inline: 0px;
-    word-wrap: break-word;
-    text-align: left;
-}
-
-.depoimentos h3 {
-    padding-inline: 0px;
-    text-align: left;
-}
-
-
-#container {  /* primeira parte (introduction)*/
-    width: 80%; /* percentual da largura que o container vai ocupar na tela*/
-    max-width: 1200px; /* define a largura maxima que o container pode ter mesmo que o container pai ultrapasse essa largura*/
-    margin: 0 auto; /* define o preenchimento externo (fora do conteúdo) do container. 0 auto; aplica margens automáticas*/
-    padding-top: 50px;
-    padding-bottom: 50px; /*define o preenchimento interno do container (onde fica todo o conteúdo)*/
-    color: rgba(0, 0, 0, 0.788);
-    text-align: center;
-}
-#container h2 { /* (2) */
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.788);
-    margin-bottom: 10px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-}
-#container p { /* (2) */
-    font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.788);
-    margin-bottom: 10px;
-    font-weight: bold;
-    line-height: 3;
-    letter-spacing: 1.2px;
-}
-
-.highlight { /* */
-    color:#ff9600; /* Escolha a cor que você deseja */
-  }
-  
-.btn { /* (2) */
     display: inline-block;
     background-color: #48b02c;
     color: #ffffff;
@@ -214,11 +84,90 @@ body {  /* Corpo da página. Exceção body e footer */
     font-size: 20px;
 }
 
-.btn:hover { /* (2) */
+.btn:hover { /*existe*/
     background-color: #4dd427;
 }
 
+@keyframes pulsar { /*existe*/
+    0% {
+        transform: scale(1); /* Tamanho normal */
+    }
+    50% {
+        transform: scale(1.1); /* Cresce para 110% */
+    }
+    100% {
+        transform: scale(1); /* Volta ao tamanho normal */
+    }
+}
 
+
+.chamada { /*existe*/
+    font-size: 25px;
+    font-weight: 0;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+#section-depoimentos { /*existe*/
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.depoimentos-ind  { /*existe*/
+    font-size: 14px;
+    padding: 0%;
+    text-align: left;
+    display: inline-block;
+    padding-inline: 30px;
+    margin-inline: 20px;
+}
+
+.depoimentos p { /*existe*/
+    font-size: 14px;
+    margin-inline: 0px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.depoimentos h3 { /*existe*/
+    padding-inline: 0px;
+    text-align: left;
+}
+
+
+#container { /*existe*/
+    width: 80%; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgba(0, 0, 0, 0.788);
+    text-align: center;
+}
+#container h2 { /*existe*/
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.788);
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#container p { /*existe*/
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.788);
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 3;
+    letter-spacing: 1.2px;
+}
+
+.highlight { /*existe*/
+    color:#ff9600; /* Escolha a cor que você deseja */
+  }
+  
+
+/*----------------------------------------------------------------------------------------*/
 
 #testimonials { /* (4) */
     padding: 50px 0;
