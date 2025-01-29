@@ -46,7 +46,6 @@ header h1 {  /*existe*/
 .caracteristicas { /*existe*/
     color: #fff;
     padding-inline: 200px;
-    line-height: 2;
     text-align: center;
 }
 
@@ -57,6 +56,7 @@ header h1 {  /*existe*/
     font-family: 'Roboto', 'Poppins', sans-serif;
     font-weight: 1000;
     text-align: center;
+    line-height: 2;
 }
 
 .descricao { /*existe*/
@@ -100,6 +100,21 @@ header h1 {  /*existe*/
     }
 }
 
+#img2 {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+}
+
+.img2 {
+    display:block; /* Garante que as imagens se comportem como blocos, ocupando toda a linha */
+    margin:0 auto;
+    width: 500px;
+    height: 500px;
+
+  }
 
 .chamada { /*existe*/
     font-size: 25px;
