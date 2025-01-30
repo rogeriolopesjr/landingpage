@@ -13,16 +13,26 @@ body {
     font-family: Arial, Sans-serif;
 }
 
+header {
+    background: #542362;
+    display:block; /* Garante que as imagens se comportem como blocos, ocupando toda a linha */
+    
+
+}
+
 header h1 {  /*existe*/
+    margin:0 auto;
+    width: 350px;
+    height: 100px;
     background: #542362;
     color: #ffffffd8;
     padding-top: 10px;
     padding-bottom: 0px;
     font-family: 'Roboto', 'Poppins', sans-serif;
     font-weight: 1000;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 1.5;
-    text-align: center;
+    text-align: justify;
 }
 
 #home { /*existe*/
@@ -52,24 +62,28 @@ header h1 {  /*existe*/
 .caracteristicas h2 { /*existe*/
     background: #00000000;
     color: #ffffffd8;
-    font-size: 30px;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    font-weight: 1000;
     text-align: center;
     line-height: 2;
 }
 
-.descricao { /*existe*/
+.caracteristicas h4 {
     line-height: 2;
-    font-size: 20px;
-    font-weight: 200;
+}
+
+.descricao { /*existe*/
+    width: 370px;
+    margin: 0 auto;
     padding: 0px;
-    margin: 0px;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 450;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    text-align: justify;
 }
 
 .btn { /*existe*/
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     display: inline-block;
     background-color: #48b02c;
     color: #ffffff;
@@ -116,8 +130,19 @@ header h1 {  /*existe*/
 
   }
 
-.chamada { /*existe*/
-    font-size: 25px;
+.head-2 { /*existe*/
+    font-size: 20px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-weight: 1000;
+}
+
+.head-3 {
+    width:820px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: justify;
 }
 
 .best-seller {
@@ -125,8 +150,8 @@ header h1 {  /*existe*/
     color:#ffffff;
     padding-top: 65px;
     padding-bottom: 65px;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    font-weight: 1000;
+    
+    
     display: flex;
     justify-content: center;
     
@@ -141,16 +166,13 @@ header h1 {  /*existe*/
 }
 
 #section-depoimentos h2 { /*existe*/
-    width: 50%; 
-    max-width: 1200px;
     margin: 0 auto;
-    color: rgba(0, 0, 0, 0.788);
-    padding-top: 20px;
     margin-bottom: 60px;
+    color: rgba(0, 0, 0, 0.788);
+    width: 50%; 
+    padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    font-weight: 1000;
 }
 
 .depoimentos-ind  { /*existe*/
@@ -177,7 +199,7 @@ header h1 {  /*existe*/
 }
 
 
-#container { /*existe*/
+#garantia { /*existe*/
     width: 50%; 
     max-width: 1200px;
     margin: 0 auto;
@@ -187,26 +209,21 @@ header h1 {  /*existe*/
     text-align: center;
 }
 
-#container img {
+#garantia img {
     vertical-align: middle;
     margin-right: 5px;
 }
-#container h2 { /*existe*/
+#garantia h2 { /*existe*/
     margin-bottom: 20px;
-    color: color rgba(0, 0, 0, 0.788);
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
-    font-family: 'Roboto', 'Poppins', sans-serif;
-    font-weight: 1000;
     
 }
-#container p { /*existe*/
-    font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.788);
+#garantia p { /*existe*/
     margin-bottom: 10px;
-    font-weight: bold;
-    line-height: 3;
-    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.788);
+    line-height: 2.5;
+    letter-spacing: 0.5px;
 }
 
 .highlight { /*existe*/
@@ -214,39 +231,51 @@ header h1 {  /*existe*/
   }
   
 
-/*----------------------------------------------------------------------------------------*/
+/*--------------------------------PERGUNTAS FREQUENTES------------------------------------*/
 
-#testimonials { /* (4) */
-    padding: 50px 0;
+#FAQ {
+    padding: 15px;
+    margin: 0 auto;
+    margin-inline: 30%;
     text-align: center;
+    border: 1px solid  #ddd;
+    margin-bottom: 50px;
 }
 
-#testimonials h2 { /* (4) */
-    font-size: 2rem;
+#FAQ h2 {
     margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.788);
 }
 
-.testimonial { /* (4) */
+.FAQ {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    text-align: justify;
 }
 
-.testimonial p { /* (4) */
-    font-size: 1.1rem;
-    color: #666;
-}
-
-.testimonial cite { /* (4) */
+.FAQ cite {
     font-style: normal;
 }
 
-footer { /* (5) */
-    background-color: #333;
+.FAQ p {
+    padding-top: 5px;
+    font-size: 12px;
+    color: #666;
+    letter-spacing: 0.5px;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+
+footer { 
+    background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    font-size: 12px;
 }
 
 footer ul { /* (5) */
