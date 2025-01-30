@@ -150,53 +150,50 @@ header h1 {  /*existe*/
     color:#ffffff;
     padding-top: 65px;
     padding-bottom: 65px;
-    
-    
     display: flex;
     justify-content: center;
     
 }
 
-#section-depoimentos { /*existe*/
+/*-----------------------------------DEPOIMENTOS--------------------------------------*/
+
+#section-depoimentos {
     text-align: center;
     margin-bottom: 60px;
     margin-top: 20px;
-    
-    
 }
 
-#section-depoimentos h2 { /*existe*/
-    margin: 0 auto;
-    margin-bottom: 60px;
-    color: rgba(0, 0, 0, 0.788);
+#section-depoimentos h2 { 
     width: 50%; 
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.788);
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.depoimentos-ind  { /*existe*/
-    color: rgba(0, 0, 0, 0.788);
-    font-size: 14px;
-    padding: 0%;
-    text-align: left;
+.depoimentos-ind  {
     display: inline-block;
-    padding-inline: 30px;
     margin-inline: 20px;
+    color: rgba(0, 0, 0, 0.788);
+    padding: 0%;
+    padding-inline: 30px;
     padding-bottom: 30px;
-}
-
-.depoimentos p { /*existe*/
     font-size: 14px;
-    margin-inline: 0px;
-    word-wrap: break-word;
-    text-align: left;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    text-align: justify;
 }
 
-.depoimentos h3 { /*existe*/
+.depoimentos-ind h3 { /*existe*/
     padding-inline: 0px;
-    text-align: left;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 450;
 }
+
+
+/*--------------------------------------GARANTIA-----------------------------------------*/
 
 
 #garantia { /*existe*/
@@ -213,12 +210,13 @@ header h1 {  /*existe*/
     vertical-align: middle;
     margin-right: 5px;
 }
+
 #garantia h2 { /*existe*/
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
-    
 }
+
 #garantia p { /*existe*/
     margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.788);
@@ -228,10 +226,11 @@ header h1 {  /*existe*/
 
 .highlight { /*existe*/
     color:#ff9600; /* Escolha a cor que você deseja */
-  }
-  
+}
+
 
 /*--------------------------------PERGUNTAS FREQUENTES------------------------------------*/
+
 
 #FAQ {
     padding: 15px;
@@ -268,7 +267,8 @@ header h1 {  /*existe*/
 }
 
 
-/*----------------------------------------------------------------------------------------*/
+/*--------------------------------------RODA PE------------------------------------------*/
+
 
 footer { 
     background-color: #000000;
