@@ -22,15 +22,15 @@ header {
 
 header h1 {  /*existe*/
     margin:0 auto;
-    width: 350px;
-    height: 100px;
+    width: 600px;
+    height: 140px;
     background: #542362;
     color: #ffffffd8;
     padding-top: 10px;
     padding-bottom: 0px;
     font-family: 'Roboto', 'Poppins', sans-serif;
     font-weight: 1000;
-    font-size: 25px;
+    font-size: 40px;
     line-height: 1.5;
     text-align: center;
 }
@@ -63,7 +63,8 @@ header h1 {  /*existe*/
     background: #00000000;
     color: #ffffffd8;
     text-align: center;
-    line-height: 2;
+    line-height: 3;
+    font-size: 30px;
 }
 
 .caracteristicas h4 {
@@ -71,11 +72,11 @@ header h1 {  /*existe*/
 }
 
 .descricao { /*existe*/
-    width: 370px;
+    width: 500px;
     margin: 0 auto;
     padding: 0px;
     line-height: 2;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 450;
     font-family: 'Roboto', 'Poppins', sans-serif;
     text-align: justify;
@@ -131,7 +132,7 @@ header h1 {  /*existe*/
   }
 
 .head-2 { /*existe*/
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Roboto', 'Poppins', sans-serif;
     font-weight: 1000;
 }
@@ -139,7 +140,7 @@ header h1 {  /*existe*/
 .head-3 {
     width:820px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Roboto', 'Poppins', sans-serif;
     font-weight: 500;
     text-align: justify;
