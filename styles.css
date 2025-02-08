@@ -51,6 +51,8 @@ header h1 {  /*existe*/
 .img{ /*existe*/
     margin-left: -70px;
     margin-top: -72px;
+    width: 450px; 
+    height: 350px;
 }
 
 .caracteristicas { /*existe*/
