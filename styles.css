@@ -117,6 +117,11 @@ header h1 {  /*existe*/
     }
 }
 
+.video {
+    width: 560;
+    height:315;
+}
+
 #img2 {
     display: inline-block;
     text-align: center;
@@ -294,4 +299,312 @@ footer ul li { /* (5) */
 footer ul li a { /* (5) */
     color: #fff;
     text-decoration: none;
+}
+
+/*--------------------------------------MOBILE------------------------------------------*/
+
+@media (max-width: 768px) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-inline: 1px;
+        background: #ffffff;
+        font-family: Arial, Sans-serif;
+    }
+    
+    header {
+        background: #542362;
+        display:block; /* Garante que as imagens se comportem como blocos, ocupando toda a linha */
+        
+    
+    }
+    
+    header h1 {  /*existe*/
+        margin:0 auto;
+        width: 600px;
+        height: 140px;
+        background: #542362;
+        color: #ffffffd8;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-family: 'Roboto', 'Poppins', sans-serif;
+        font-weight: 1000;
+        font-size: 40px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #home { /*existe*/
+        background: linear-gradient(to bottom, #542362,  #9b3c82,#9b3c82,#542362de,#542362,#542362,#542362);
+    }
+    
+    .home{ /*existe*/
+        margin: -0 auto;
+        background: #ffffff;
+        padding: 50px;
+        width:320px;
+        height: 320px;
+        border-radius: 500px;
+    }
+    
+    .img{ /*existe*/
+        margin-left: -70px;
+        margin-top: -72px;
+        width: 450px; 
+        height: 350px;
+    }
+    
+    .caracteristicas { /*atençaooooooooooooooooooooooooooooooooooooooooooooooooo*/
+        color: #fff;
+        padding-inline: 200px;
+        text-align: center;
+    }
+    
+    .caracteristicas h2 { /*existe*/
+        background: #00000000;
+        color: #ffffffd8;
+        text-align: center;
+        line-height: 3;
+        font-size: 30px;
+    }
+    
+    .caracteristicas h4 {
+        line-height: 2;
+    }
+    
+    .descricao { /*existe*/
+        width: 500px;
+        margin: 0 auto;
+        padding: 0px;
+        line-height: 2;
+        font-size: 16px;
+        font-weight: 450;
+        font-family: 'Roboto', 'Poppins', sans-serif;
+        text-align: justify;
+    }
+    
+    .btn { /*existe*/
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: inline-block;
+        background-color: #48b02c;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.05s ease;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family:'Arial';
+        animation: pulsar 0.95s infinite;
+        font-size: 20px;
+    }
+    
+    .btn:hover { /*existe*/
+        background-color: #4dd427;
+    }
+    
+    @keyframes pulsar { /*existe*/
+        0% {
+            transform: scale(1); /* Tamanho normal */
+        }
+        50% {
+            transform: scale(1.1); /* Cresce para 110% */
+        }
+        100% {
+            transform: scale(1); /* Volta ao tamanho normal */
+        }
+    }
+
+    .video {
+        width: 560;
+        height:315;
+    }
+    
+    #img2 {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 5px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .img2 {
+        display:block; /* Garante que as imagens se comportem como blocos, ocupando toda a linha */
+        margin:0 auto;
+        width: 500px;
+        height: 500px;
+    
+      }
+    
+    .head-2 { /*existe*/
+        font-size: 30px;
+        font-family: 'Roboto', 'Poppins', sans-serif;
+        font-weight: 1000;
+    }
+    
+    .head-3 {
+        width:820px;
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: 'Roboto', 'Poppins', sans-serif;
+        font-weight: 500;
+        text-align: justify;
+    }
+    
+    .best-seller {
+        background-color: black;
+        color:#ffffff;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    /*-----------------------------------DEPOIMENTOS--------------------------------------*/
+    
+    #section-depoimentos {
+        text-align: center;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+    
+    #section-depoimentos h2 { 
+        width: 50%; 
+        margin: 0 auto;
+        margin-bottom: 50px;
+        color: rgba(0, 0, 0, 0.788);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .depoimentos-ind  {
+        display: inline-block;
+        margin-inline: 20px;
+        color: rgba(0, 0, 0, 0.788);
+        padding: 0%;
+        padding-inline: 30px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        font-family: 'Roboto', 'Poppins', sans-serif;
+        text-align: justify;
+    }
+    
+    .depoimentos-ind h3 { /*existe*/
+        padding-inline: 0px;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 450;
+    }
+    
+    
+    /*--------------------------------------GARANTIA-----------------------------------------*/
+    
+    
+    #garantia { /*existe*/
+        width: 50%; 
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        color: rgba(0, 0, 0, 0.788);
+        text-align: center;
+    }
+    
+    #garantia img {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    
+    #garantia h2 { /*existe*/
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #garantia p { /*existe*/
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.788);
+        line-height: 2.5;
+        letter-spacing: 0.5px;
+    }
+    
+    .highlight { /*existe*/
+        color:#ff9600; /* Escolha a cor que você deseja */
+    }
+    
+    
+    /*--------------------------------PERGUNTAS FREQUENTES------------------------------------*/
+    
+    
+    #FAQ {
+        padding: 15px;
+        margin: 0 auto;
+        margin-inline: 30%;
+        text-align: center;
+        border: 1px solid  #ddd;
+        margin-bottom: 50px;
+    }
+    
+    #FAQ h2 {
+        margin-bottom: 20px;
+        color: rgba(0, 0, 0, 0.788);
+    }
+    
+    .FAQ {
+        background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+        text-align: justify;
+    }
+    
+    .FAQ cite {
+        font-style: normal;
+    }
+    
+    .FAQ p {
+        padding-top: 5px;
+        font-size: 12px;
+        color: #666;
+        letter-spacing: 0.5px;
+    }
+    
+    
+    /*--------------------------------------RODA PE------------------------------------------*/
+    
+    
+    footer { 
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    
+    footer ul { /* (5) */
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    
+    footer ul li { /* (5) */
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    footer ul li a { /* (5) */
+        color: #fff;
+        text-decoration: none;
+    }
+
 }
