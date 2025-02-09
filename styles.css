@@ -339,7 +339,7 @@ footer ul li a { /* (5) */
     }
     
     #home { /*existe*/
-        margin: 0px;
+        
         background: linear-gradient(to bottom, #542362,  #9b3c82,#9b3c82,#542362de,#542362,#542362,#542362);
     }
     
@@ -353,7 +353,7 @@ footer ul li a { /* (5) */
     }
     
     .img{ /*existe*/
-        
+        margin-left: -90px;
         margin-top: -60px;
         width: 390px; 
         height: 330px;
