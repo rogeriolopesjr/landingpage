@@ -339,11 +339,12 @@ footer ul li a { /* (5) */
     }
     
     #home { /*existe*/
+        margin: 0px;
         background: linear-gradient(to bottom, #542362,  #9b3c82,#9b3c82,#542362de,#542362,#542362,#542362);
     }
     
     .home{ /*existe*/
-        margin: -0 auto;
+        margin: 0px;
         background: #ffffff;
         padding: 46px;
         width: 280px;
