@@ -333,7 +333,7 @@ footer ul li a { /* (5) */
         background: #542362;
         color: #ffffffd8;
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 20px;
         font-family: 'Roboto', 'Poppins', sans-serif;
         font-weight: 1000;
         font-size: 25px;
@@ -348,16 +348,16 @@ footer ul li a { /* (5) */
     .home{ /*existe*/
         margin: -0 auto;
         background: #ffffff;
-        padding: 50px;
-        width:320px;
-        height: 320px;
+        padding: 46px;
+        width:313px;
+        height: 313px;
         border-radius: 500px;
     }
     
     .img{ /*existe*/
-        margin-left: -70px;
-        margin-top: -72px;
-        width: 450px; 
+        margin-left: -80px;
+        margin-top: -60px;
+        width: 400px; 
         height: 350px;
     }
     
