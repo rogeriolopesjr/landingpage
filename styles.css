@@ -326,17 +326,17 @@ footer ul li a { /* (5) */
     
     }
     
-    header h1 {  /*existe*/
+    header h1 {  /*atençaooooooooooooooooooooooooooooooooooooooooooooooooo*/
         margin:0 auto;
-        width: 600px;
-        height: 140px;
+        width: 100%;
+        height: auto;
         background: #542362;
         color: #ffffffd8;
         padding-top: 10px;
         padding-bottom: 0px;
         font-family: 'Roboto', 'Poppins', sans-serif;
         font-weight: 1000;
-        font-size: 40px;
+        font-size: 25px;
         line-height: 1.5;
         text-align: center;
     }
