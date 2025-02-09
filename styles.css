@@ -363,7 +363,7 @@ footer ul li a { /* (5) */
     
     .caracteristicas { /*atençaooooooooooooooooooooooooooooooooooooooooooooooooo*/
         color: #fff;
-        padding-inline: 200px;
+        padding-inline: 20px;
         text-align: center;
     }
     
@@ -450,8 +450,8 @@ footer ul li a { /* (5) */
         font-weight: 1000;
     }
     
-    .head-3 {
-        width:820px;
+    .head-3 { /*atençaooooooooooooooooooooooooooooooooooooooooooooooooo*/
+        width:300px;
         margin: 0 auto;
         font-size: 20px;
         font-family: 'Roboto', 'Poppins', sans-serif;
