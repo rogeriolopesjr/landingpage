@@ -536,6 +536,7 @@ footer ul li a { /* (5) */
         color: rgba(0, 0, 0, 0.788);
         line-height: 2.5;
         letter-spacing: 0.5px;
+        font-size: 15px;
     }
     
     .highlight { /*existe*/
