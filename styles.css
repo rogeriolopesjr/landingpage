@@ -380,11 +380,11 @@ footer ul li a { /* (5) */
     }
     
     .descricao { /*existe*/
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
         padding: 0px;
         line-height: 2;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 450;
         font-family: 'Roboto', 'Poppins', sans-serif;
         text-align: justify;
