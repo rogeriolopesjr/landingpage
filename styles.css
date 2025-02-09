@@ -306,8 +306,8 @@ footer ul li a { /* (5) */
 @media (max-width: 768px) { 
 
     * {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         box-sizing: border-box;
     }
     
@@ -344,11 +344,11 @@ footer ul li a { /* (5) */
     }
     
     .home{ /*existe*/
-        margin: 0px;
+        margin: 0 auto;
         background: #ffffff;
         padding: 46px;
-        width: 280px;
-        height: 280px;
+        width: 270px;
+        height: 270px;
         border-radius: 500px;
     }
     
@@ -357,7 +357,7 @@ footer ul li a { /* (5) */
         margin-top: -60px;
         width: 390px; 
         height: 330px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     
     .caracteristicas { /*atençaooooooooooooooooooooooooooooooooooooooooooooooooo*/
