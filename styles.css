@@ -379,7 +379,7 @@ footer ul li a { /* (5) */
     .descricao { /*existe*/
         width: 100%;
         margin: 0 auto;
-        padding: 0px;
+        padding-left: 40px;
         line-height: 2;
         font-size: 12px;
         font-weight: 450;
@@ -442,7 +442,7 @@ footer ul li a { /* (5) */
       }
     
     .head-2 { /*existe*/
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Roboto', 'Poppins', sans-serif;
         font-weight: 1000;
     }
@@ -450,7 +450,7 @@ footer ul li a { /* (5) */
     .head-3 { /*atençaooooooooooooooooooooooooooooooooooooooooooooooooo*/
         width:300px;
         margin: 0 auto;
-        font-size: 20px;
+        font-size: 12px;
         font-family: 'Roboto', 'Poppins', sans-serif;
         font-weight: 500;
         text-align: justify;
