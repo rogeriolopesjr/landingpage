@@ -539,7 +539,7 @@ footer ul li a { /* (5) */
         color: white;
         margin-bottom: 20px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 0px solid #ddd;
     }
     
     #garantia p { /*existe*/
