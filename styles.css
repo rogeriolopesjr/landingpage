@@ -523,7 +523,7 @@ footer ul li a { /* (5) */
         max-width: 1200px;
         margin: 0 auto;
         padding-top: 20px;
-        padding-inline: 50px;
+        padding-inline: 40px;
         padding-bottom: 20px;
         color: white;
         text-align: center;
@@ -542,12 +542,11 @@ footer ul li a { /* (5) */
     }
     
     #garantia p { /*existe*/
-        padding-left: 20px;
         margin-bottom: 10px;
         color: white;
         line-height: 2.5;
         letter-spacing: 0.5px;
-        font-size: 15px;
+        font-size: 16px;
     }
     
     .highlight { /*existe*/
