@@ -464,8 +464,8 @@ footer ul li a { /* (5) */
     .best-seller {
         background-color: black;
         color:#ffffff;
-        padding-top: 65px;
-        padding-bottom: 65px;
+        padding-top: 35px;
+        padding-bottom: 35px;
         display: flex;
         justify-content: center;
         
