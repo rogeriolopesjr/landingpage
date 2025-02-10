@@ -461,7 +461,7 @@ footer ul li a { /* (5) */
         font-weight: 450;
     }
     
-    .texto {
+    #texto {
         display: none;
     }
 
