@@ -527,6 +527,7 @@ footer ul li a { /* (5) */
         padding-bottom: 20px;
         color: white;
         text-align: center;
+        margin-bottom: 30px;
     }
     
     #garantia img {
@@ -599,7 +600,7 @@ footer ul li a { /* (5) */
         background-color: #000000;
         color: #fff;
         text-align: center;
-        padding: 10px 0;
+        padding: 20px;
         font-size: 12px;
     }
     
