@@ -458,9 +458,13 @@ footer ul li a { /* (5) */
         font-family: 'Roboto', 'Poppins', sans-serif;
         text-align: justify;
         line-height: 1.5;
-        font-weight: 0;
+        font-weight: 450;
     }
     
+    .texto {
+        display: none;
+    }
+
     .best-seller {
         background-color: black;
         color:#ffffff;
