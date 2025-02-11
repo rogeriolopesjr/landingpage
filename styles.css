@@ -443,6 +443,7 @@ footer ul li a { /* (5) */
       }
     
     .head-2 { /*existe*/
+        width: 100%;
         padding-left: 0px;
         font-size: 20px;
         font-family: 'Roboto', 'Poppins', sans-serif;
