@@ -11,11 +11,21 @@ body {
     font-family: Arial, Sans-serif;
 }
 
+.logo {
+    background-color: white;
+}
+
+.logo p {
+    background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        font-size: 12px;
+}
+
 header {
     background: #542362;
     display:block; /* Garante que as imagens se comportem como blocos, ocupando toda a linha */
-    
-
 }
 
 header h1 {  /*existe*/
