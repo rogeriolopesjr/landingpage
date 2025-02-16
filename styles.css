@@ -578,7 +578,7 @@ footer ul li a { /* (5) */
         padding-top: 15px;
         padding-bottom: 15px;
         margin-bottom: 0px;
-        text-align: justify;
+        text-align: left;
     }
     
     .FAQ cite {
