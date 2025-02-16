@@ -519,8 +519,8 @@ footer ul li a { /* (5) */
     
     #garantia { /*existe*/
         background-color: #ffffff;
-        min-width: 320px; 
-        max-width: 800px;
+        width: 100%;
+        max-width: 1200px;
         margin: 0 auto;
         padding-top: 20px;
         padding-inline: 40px;
@@ -543,8 +543,8 @@ footer ul li a { /* (5) */
     }
     
     #garantia p { /*existe*/
-        padding: 0px;
-        
+        min-width: 320px; 
+        margin-bottom: 10px;
         color: rgb(0, 0, 0);
         line-height: 2.5;
         letter-spacing: 0.5px;
