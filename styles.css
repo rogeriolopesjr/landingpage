@@ -543,7 +543,8 @@ footer ul li a { /* (5) */
     }
     
     #garantia p { /*existe*/
-        min-width: 320px; 
+        padding-inline: 0px;
+        min-width: 300px; 
         margin-bottom: 10px;
         color: rgb(0, 0, 0);
         line-height: 2.5;
