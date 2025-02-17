@@ -209,23 +209,8 @@ header h1 {  /*existe*/
 
   .preco-atual {
     font-size: 1.5rem;
-    color: #e74c3c;
+    color: #48b02c;
     font-weight: bold;
-  }
-
-  .comprar-btn {
-    background-color: #e74c3c;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .comprar-btn:hover {
-    background-color: #c0392b;
   }
 
 .best-seller {
@@ -235,7 +220,6 @@ header h1 {  /*existe*/
     padding-bottom: 65px;
     display: flex;
     justify-content: center;
-    
 }
 
 /*-----------------------------------DEPOIMENTOS--------------------------------------*/
@@ -555,7 +539,7 @@ footer ul li a { /* (5) */
   }
 
   .produto-img {
-    width: 450px;
+    width: 400px;
     height: 350px;
     object-fit: cover;
   }
@@ -594,21 +578,6 @@ footer ul li a { /* (5) */
     font-weight: bold;
   }
 
-  .comprar-btn {
-    background-color: #e74c3c;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .comprar-btn:hover {
-    background-color: #c0392b;
-  }
-
     .best-seller {
         background-color: black;
         color:#ffffff;
@@ -617,7 +586,6 @@ footer ul li a { /* (5) */
         padding-left: 30px;
         display: flex;
         justify-content: center;
-        
     }
     
     /*-----------------------------------DEPOIMENTOS--------------------------------------*/
