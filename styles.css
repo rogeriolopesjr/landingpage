@@ -213,6 +213,10 @@ header h1 {  /*existe*/
     font-weight: bold;
   }
 
+  .produto button {
+    margin-left: 70px;
+  }
+
 .best-seller {
     background-color: black;
     color:#ffffff;
