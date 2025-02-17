@@ -107,6 +107,7 @@ header h1 {  /*existe*/
     font-family:'Arial';
     animation: pulsar 0.95s infinite;
     font-size: 20px;
+    border-color: #48b02c;
 }
 
 .btn:hover { /*existe*/
