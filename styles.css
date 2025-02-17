@@ -213,10 +213,6 @@ header h1 {  /*existe*/
     font-weight: bold;
   }
 
-  .produto button {
-    margin-left: 70px;
-  }
-
 .best-seller {
     background-color: black;
     color:#ffffff;
@@ -580,6 +576,10 @@ footer ul li a { /* (5) */
     font-size: 1.5rem;
     color: #e74c3c;
     font-weight: bold;
+  }
+
+  .produto button {
+    margin-left: 70px;
   }
 
     .best-seller {
