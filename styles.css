@@ -568,8 +568,8 @@ footer ul li a { /* (5) */
 
   .preco-antigo {
     text-decoration: line-through;
-    color: #888;
-    font-size: 1.2rem;
+    color: #000000;
+    font-size: 3rem;
     margin-right: 10px;
   }
 
