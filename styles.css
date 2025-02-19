@@ -262,6 +262,7 @@ header h1 {  /*existe*/
 }
 
 .dp1 {
+
     width: 180px;
     height: 280px;
 }
@@ -642,6 +643,7 @@ footer ul li a { /* (5) */
     .dp1 {
         width: 280px;
         height: 380px;
+        border-radius: 10px;
     }
     
     /*--------------------------------------GARANTIA-----------------------------------------*/
