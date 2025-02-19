@@ -227,7 +227,6 @@ header h1 {  /*existe*/
 /*-----------------------------------DEPOIMENTOS--------------------------------------*/
 
 #section-depoimentos {
-    margin-inline: 40px;
     text-align: center;
     margin-bottom: 60px;
     margin-top: 20px;
@@ -245,7 +244,7 @@ header h1 {  /*existe*/
 
 .depoimentos-ind  {
     display: inline-block;
-    margin-inline: 20px;
+    margin-inline: 40px;
     color: rgba(0, 0, 0, 0.788);
     padding: 0%;
     padding-inline: 30px;
@@ -262,6 +261,10 @@ header h1 {  /*existe*/
     font-weight: 450;
 }
 
+.dp1 {
+    width: 180px;
+    height: 280px;
+}
 
 /*--------------------------------------GARANTIA-----------------------------------------*/
 
@@ -535,7 +538,6 @@ footer ul li a { /* (5) */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: block;
-    
     max-width: 700px;
     margin: 20px;
     margin-top: 80px;
@@ -637,6 +639,10 @@ footer ul li a { /* (5) */
         font-weight: 450;
     }
     
+    .dp1 {
+        width: 280px;
+        height: 380px;
+    }
     
     /*--------------------------------------GARANTIA-----------------------------------------*/
     
